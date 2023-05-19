@@ -1,0 +1,20 @@
+{
+  "name": "xNFT Quickstart",
+  "version": "0.0.1",
+  "storage": "",
+  "description": "React Native Example",
+  "website": "http://wao.gg",
+  "kind": "app",
+  "icon": {
+    "md": "./assets/icon.png"
+  },
+  "contact": "",
+  "screenshots": [
+    "./assets/screenShot.png"
+  ],
+  "entrypoints": {
+    "default": {
+      "web": "./web-build/index.html"
+    }
+  }
+}
