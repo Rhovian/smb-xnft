@@ -2,9 +2,6 @@ import { StyleSheet } from "react-native";
 import { Screen } from "../components/Screen";
 
 export function HomeScreen() {
-  const source = require('../assets/banana_split_066.pdf')
-
-
   return (
     <Screen style={styles.container}>
       <iframe style={styles.iframe} src="https://drive.google.com/file/d/1rFDNjF2tF7Zjq9y_lKTYcfcPmEUA61gu/preview" allow="autoplay"></iframe>
