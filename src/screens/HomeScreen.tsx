@@ -3,13 +3,13 @@ import { Screen } from "../components/Screen";
 import { useLatestUrl } from "../hooks/useLatestUrl";
 
 export function HomeScreen() {
+  console.log(window.xnft)
   const data = useLatestUrl();
-  const { height, width } = Dimensions.get('window');
   return (
     <>
       {data.isLoading ?
         <View
-          style={{ justifyContent: 'center', alignItems: 'center', height, width }}>
+          style={{ justifyContent: 'center', alignItems: 'center', height: '100vh', width: '100vw' }}>
           <ActivityIndicator size="large" color="black" />
         </View> : (
           <Screen style={styles.container}>
