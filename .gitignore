@@ -14,3 +14,6 @@ xnft-bundle.zip
 
 # macOS
 .DS_Store
+
+#local history ext
+.history/
