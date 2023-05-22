@@ -7,6 +7,8 @@ import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { useFonts, Inter_900Black } from "@expo-google-fonts/dev";
 import { HomeScreen } from "./screens/HomeScreen";
 
+
+
 const Tab = createBottomTabNavigator();
 
 function TabNavigator() {
@@ -32,6 +34,8 @@ function TabNavigator() {
 }
 
 function App() {
+  // doesn't extend beyond 800 for some reason
+  window.xnft.resizeExtensionWindow(800, 800)
   let [fontsLoaded] = useFonts({
     Inter_900Black,
   });

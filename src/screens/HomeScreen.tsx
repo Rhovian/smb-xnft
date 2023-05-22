@@ -3,7 +3,6 @@ import { Screen } from "../components/Screen";
 import { useLatestUrl } from "../hooks/useLatestUrl";
 
 export function HomeScreen() {
-  console.log(window.xnft)
   const data = useLatestUrl();
   return (
     <>
