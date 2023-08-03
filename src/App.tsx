@@ -38,8 +38,8 @@ function App() {
   // doesn't extend beyond 800 for some reason
   useEffect(() => {
     if (window.xnft) window.xnft.resizeExtensionWindow(800, 800);
-  }, [window])
-  
+  }, [window.xnft])
+
   let [fontsLoaded] = useFonts({
     Inter_900Black,
   });
